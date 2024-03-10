@@ -42,13 +42,13 @@
       "size" : "256x256"
     },
     {
-      "filename" : "icon-512-maskable 1.png",
+      "filename" : "icon-512-maskable.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "256x256"
     },
     {
-      "filename" : "icon-512-maskable.png",
+      "filename" : "icon-512-maskable 1.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "512x512"

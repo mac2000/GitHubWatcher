@@ -7,19 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040C55362B9D92C4002B86B1 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C55352B9D92C4002B86B1 /* Keychain.swift */; };
+		040C55372B9D92C4002B86B1 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C55352B9D92C4002B86B1 /* Keychain.swift */; };
+		040C55392B9D99C1002B86B1 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C55382B9D99C1002B86B1 /* Credentials.swift */; };
+		040C553A2B9D99C1002B86B1 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C55382B9D99C1002B86B1 /* Credentials.swift */; };
 		04EAF5B72B5D86D60043CAAC /* GitHubWatcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EAF5B62B5D86D60043CAAC /* GitHubWatcherApp.swift */; };
 		04EAF5B92B5D86D60043CAAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EAF5B82B5D86D60043CAAC /* ContentView.swift */; };
 		04EAF5BB2B5D86D70043CAAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EAF5BA2B5D86D70043CAAC /* Assets.xcassets */; };
 		04EAF5BF2B5D86D70043CAAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EAF5BE2B5D86D70043CAAC /* Preview Assets.xcassets */; };
+		04EAF5CA2B5DA8970043CAAC /* GitHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EAF5C92B5DA8970043CAAC /* GitHub.swift */; };
+		04EAF5EA2B5DAD170043CAAC /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EAF5D12B5DACDB0043CAAC /* WidgetKit.framework */; };
+		04EAF5EB2B5DAD170043CAAC /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EAF5D32B5DACDB0043CAAC /* SwiftUI.framework */; };
+		04EAF5EE2B5DAD170043CAAC /* PullRequestsWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EAF5ED2B5DAD170043CAAC /* PullRequestsWidgetBundle.swift */; };
+		04EAF5F02B5DAD170043CAAC /* PullRequestsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EAF5EF2B5DAD170043CAAC /* PullRequestsWidget.swift */; };
+		04EAF5F22B5DAD180043CAAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EAF5F12B5DAD180043CAAC /* Assets.xcassets */; };
+		04EAF5F72B5DAD180043CAAC /* PullRequestsWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 04EAF5E92B5DAD170043CAAC /* PullRequestsWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04EAF5FE2B5DAF870043CAAC /* GitHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EAF5C92B5DA8970043CAAC /* GitHub.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		04EAF5F52B5DAD180043CAAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EAF5AB2B5D86D60043CAAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EAF5E82B5DAD170043CAAC;
+			remoteInfo = PullRequestsWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04EAF5E42B5DACDC0043CAAC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				04EAF5F72B5DAD180043CAAC /* PullRequestsWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		040C55352B9D92C4002B86B1 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		040C55382B9D99C1002B86B1 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		04EAF5B32B5D86D60043CAAC /* GitHubWatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubWatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EAF5B62B5D86D60043CAAC /* GitHubWatcherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubWatcherApp.swift; sourceTree = "<group>"; };
 		04EAF5B82B5D86D60043CAAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04EAF5BA2B5D86D70043CAAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04EAF5BC2B5D86D70043CAAC /* GitHubWatcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GitHubWatcher.entitlements; sourceTree = "<group>"; };
 		04EAF5BE2B5D86D70043CAAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04EAF5C92B5DA8970043CAAC /* GitHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHub.swift; sourceTree = "<group>"; };
+		04EAF5D12B5DACDB0043CAAC /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = /System/Library/Frameworks/WidgetKit.framework; sourceTree = "<absolute>"; };
+		04EAF5D32B5DACDB0043CAAC /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = /System/Library/Frameworks/SwiftUI.framework; sourceTree = "<absolute>"; };
+		04EAF5E92B5DAD170043CAAC /* PullRequestsWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PullRequestsWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EAF5ED2B5DAD170043CAAC /* PullRequestsWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullRequestsWidgetBundle.swift; sourceTree = "<group>"; };
+		04EAF5EF2B5DAD170043CAAC /* PullRequestsWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullRequestsWidget.swift; sourceTree = "<group>"; };
+		04EAF5F12B5DAD180043CAAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04EAF5F32B5DAD180043CAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EAF5F42B5DAD180043CAAC /* PullRequestsWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PullRequestsWidget.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +77,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04EAF5E62B5DAD170043CAAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EAF5EB2B5DAD170043CAAC /* SwiftUI.framework in Frameworks */,
+				04EAF5EA2B5DAD170043CAAC /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -37,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				04EAF5B52B5D86D60043CAAC /* GitHubWatcher */,
+				04EAF5EC2B5DAD170043CAAC /* PullRequestsWidget */,
+				04EAF5D02B5DACDB0043CAAC /* Frameworks */,
 				04EAF5B42B5D86D60043CAAC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				04EAF5B32B5D86D60043CAAC /* GitHubWatcher.app */,
+				04EAF5E92B5DAD170043CAAC /* PullRequestsWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,6 +116,9 @@
 				04EAF5BA2B5D86D70043CAAC /* Assets.xcassets */,
 				04EAF5BC2B5D86D70043CAAC /* GitHubWatcher.entitlements */,
 				04EAF5BD2B5D86D70043CAAC /* Preview Content */,
+				04EAF5C92B5DA8970043CAAC /* GitHub.swift */,
+				040C55352B9D92C4002B86B1 /* Keychain.swift */,
+				040C55382B9D99C1002B86B1 /* Credentials.swift */,
 			);
 			path = GitHubWatcher;
 			sourceTree = "<group>";
@@ -69,6 +131,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		04EAF5D02B5DACDB0043CAAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04EAF5D12B5DACDB0043CAAC /* WidgetKit.framework */,
+				04EAF5D32B5DACDB0043CAAC /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04EAF5EC2B5DAD170043CAAC /* PullRequestsWidget */ = {
+			isa = PBXGroup;
+			children = (
+				04EAF5ED2B5DAD170043CAAC /* PullRequestsWidgetBundle.swift */,
+				04EAF5EF2B5DAD170043CAAC /* PullRequestsWidget.swift */,
+				04EAF5F12B5DAD180043CAAC /* Assets.xcassets */,
+				04EAF5F32B5DAD180043CAAC /* Info.plist */,
+				04EAF5F42B5DAD180043CAAC /* PullRequestsWidget.entitlements */,
+			);
+			path = PullRequestsWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,15 +162,34 @@
 				04EAF5AF2B5D86D60043CAAC /* Sources */,
 				04EAF5B02B5D86D60043CAAC /* Frameworks */,
 				04EAF5B12B5D86D60043CAAC /* Resources */,
+				04EAF5E42B5DACDC0043CAAC /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				04EAF5F62B5DAD180043CAAC /* PBXTargetDependency */,
 			);
 			name = GitHubWatcher;
 			productName = GitHubWatcher;
 			productReference = 04EAF5B32B5D86D60043CAAC /* GitHubWatcher.app */;
 			productType = "com.apple.product-type.application";
+		};
+		04EAF5E82B5DAD170043CAAC /* PullRequestsWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EAF5F82B5DAD180043CAAC /* Build configuration list for PBXNativeTarget "PullRequestsWidgetExtension" */;
+			buildPhases = (
+				04EAF5E52B5DAD170043CAAC /* Sources */,
+				04EAF5E62B5DAD170043CAAC /* Frameworks */,
+				04EAF5E72B5DAD170043CAAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PullRequestsWidgetExtension;
+			productName = PullRequestsWidgetExtension;
+			productReference = 04EAF5E92B5DAD170043CAAC /* PullRequestsWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -97,9 +199,12 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					04EAF5B22B5D86D60043CAAC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					04EAF5E82B5DAD170043CAAC = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
@@ -118,6 +223,7 @@
 			projectRoot = "";
 			targets = (
 				04EAF5B22B5D86D60043CAAC /* GitHubWatcher */,
+				04EAF5E82B5DAD170043CAAC /* PullRequestsWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -132,6 +238,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04EAF5E72B5DAD170043CAAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EAF5F22B5DAD180043CAAC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -139,12 +253,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EAF5CA2B5DA8970043CAAC /* GitHub.swift in Sources */,
+				040C55362B9D92C4002B86B1 /* Keychain.swift in Sources */,
+				040C55392B9D99C1002B86B1 /* Credentials.swift in Sources */,
 				04EAF5B92B5D86D60043CAAC /* ContentView.swift in Sources */,
 				04EAF5B72B5D86D60043CAAC /* GitHubWatcherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04EAF5E52B5DAD170043CAAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EAF5FE2B5DAF870043CAAC /* GitHub.swift in Sources */,
+				040C55372B9D92C4002B86B1 /* Keychain.swift in Sources */,
+				040C553A2B9D99C1002B86B1 /* Credentials.swift in Sources */,
+				04EAF5F02B5DAD170043CAAC /* PullRequestsWidget.swift in Sources */,
+				04EAF5EE2B5DAD170043CAAC /* PullRequestsWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04EAF5F62B5DAD180043CAAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EAF5E82B5DAD170043CAAC /* PullRequestsWidgetExtension */;
+			targetProxy = 04EAF5F52B5DAD180043CAAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		04EAF5C02B5D86D70043CAAC /* Debug */ = {
@@ -181,6 +318,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -242,6 +380,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -264,16 +403,20 @@
 		04EAF5C32B5D86D70043CAAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = GitHubWatcher/GitHubWatcher.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"GitHubWatcher/Preview Content\"";
 				DEVELOPMENT_TEAM = J7ZQRKLMXS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub Watcher";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -292,6 +435,87 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ua.org.mac-blog.GitHubWatcher";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		04EAF5C42B5D86D70043CAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GitHubWatcher/GitHubWatcher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"GitHubWatcher/Preview Content\"";
+				DEVELOPMENT_TEAM = J7ZQRKLMXS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub Watcher";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ua.org.mac-blog.GitHubWatcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		04EAF5F92B5DAD180043CAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = PullRequestsWidget/PullRequestsWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = J7ZQRKLMXS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PullRequestsWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PullRequestsWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ua.org.mac-blog.GitHubWatcher.PullRequestsWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -299,37 +523,38 @@
 			};
 			name = Debug;
 		};
-		04EAF5C42B5D86D70043CAAC /* Release */ = {
+		04EAF5FA2B5DAD180043CAAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = GitHubWatcher/GitHubWatcher.entitlements;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = PullRequestsWidget/PullRequestsWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GitHubWatcher/Preview Content\"";
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = J7ZQRKLMXS;
 				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_FILE = PullRequestsWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PullRequestsWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ua.org.mac-blog.GitHubWatcher";
+				PRODUCT_BUNDLE_IDENTIFIER = "ua.org.mac-blog.GitHubWatcher.PullRequestsWidget";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
+				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -354,6 +579,15 @@
 			buildConfigurations = (
 				04EAF5C32B5D86D70043CAAC /* Debug */,
 				04EAF5C42B5D86D70043CAAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EAF5F82B5DAD180043CAAC /* Build configuration list for PBXNativeTarget "PullRequestsWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EAF5F92B5DAD180043CAAC /* Debug */,
+				04EAF5FA2B5DAD180043CAAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
