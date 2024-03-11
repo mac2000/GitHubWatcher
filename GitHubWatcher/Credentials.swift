@@ -1,5 +1,6 @@
 import Foundation
 
+// I'm simple wrapper around Keychain, our app needs only token, so we are hiding everything else
 class CredentialsManager {
     static private let service = "github.com"
     static private let account = "GitHubWatcher"

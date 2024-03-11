@@ -2,6 +2,7 @@ import SwiftUI
 
 @main
 struct GitHubWatcherApp: App {
+    // Hacky workaround
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     
     var body: some Scene {
@@ -11,6 +12,9 @@ struct GitHubWatcherApp: App {
     }
 }
 
+// Widgets does not allow us to have links, thats why we are doing this workaround with deep links
+// tap on widget number opens our app with deep link
+// we are checking if thats a case and if yes - open corresponding GitHub page in Safari and terminate the app
 class AppDelegate: NSObject, NSApplicationDelegate {
     func application(_ application: NSApplication, open urls: [URL]) {
         if let url = urls.first {

@@ -1,5 +1,6 @@
 import Foundation
 
+// GitHub api client used to retrieve pull requests numbers, inside, CredentialsManager used to retrieve token
 class GitHub {
     static let shared = GitHub()
     let decoder = JSONDecoder()
