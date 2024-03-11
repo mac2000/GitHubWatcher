@@ -1,5 +1,7 @@
 # GitHubWatcher
 
+<img width="200" alt="image" src="https://github.com/mac2000/GitHubWatcher/assets/88868/9dd894c6-e16f-4001-be22-755e0f59f960">
+
 Problem: it is hard to keep track of pull requests awaiting for review and those ready to be merged
 
 Idea: why not have an dedicated widget that will kindly remind about them
@@ -8,7 +10,7 @@ Idea: why not have an dedicated widget that will kindly remind about them
 
 The app itself does nothing useful and just used to store token that can be created [here](https://github.com/settings/tokens)
 
-Screenshot
+<img width="400" alt="image" src="https://github.com/mac2000/GitHubWatcher/assets/88868/70db1506-b211-40d5-9ca6-0aad858d297d">
 
 After we save token, app will confirm if everything ok by printing an message with number of retrieved pull requests and we can add widget
 
